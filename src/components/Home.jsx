@@ -15,7 +15,7 @@ const Home = () => {
                         <Card.Body>
                             <Card.Title className='my-3'>Video</Card.Title>
                             <Button variant="info">
-                                <Link style={{textDecoration:'none'}} to='http://localhost:3000/video'>Go to record</Link>
+                                <Link style={{textDecoration:'none'}} to='https://recorder-fmc2.onrender.com/video'>Go to record</Link>
                             </Button>
                         </Card.Body>
                     </Card>
@@ -23,7 +23,7 @@ const Home = () => {
                         <Card.Body>
                             <Card.Title className='my-3'>Audio</Card.Title>
                             <Button variant="info">
-                            <Link style={{textDecoration:'none'}} to='http://localhost:3000/audio'>Go to record</Link>
+                            <Link style={{textDecoration:'none'}} to='https://recorder-fmc2.onrender.com/audio'>Go to record</Link>
                             </Button>
                         </Card.Body>
                     </Card>
@@ -31,7 +31,7 @@ const Home = () => {
                         <Card.Body>
                             <Card.Title className='my-3'>Screen</Card.Title>
                             <Button variant="info">
-                            <Link style={{textDecoration:'none'}} to='http://localhost:3000/screen'>Go to record</Link>
+                            <Link style={{textDecoration:'none'}} to='https://recorder-fmc2.onrender.com/screen'>Go to record</Link>
                             </Button>
                         </Card.Body>
                     </Card>
