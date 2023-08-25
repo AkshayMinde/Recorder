@@ -8,8 +8,9 @@ const Home = () => {
   return (
     <>
         <Container className='my-5'>
-            <div className="row">
-                <div style={{display:'flex', justifyContent:'space-evenly', alignItems:'center'}} className="col-lg-6 mx-auto">
+            <div style={{textAlign:'center'}} className="row">
+                <h1>Screen Recorder</h1>
+                <div style={{display:'flex', justifyContent:'space-evenly', alignItems:'center'}} className="col-lg-6 mx-auto my-3">
                     <Card style={{ width: '300rem', height:'10rem' }} className='mx-5'>
                         <Card.Body>
                             <Card.Title className='my-3'>Video</Card.Title>
